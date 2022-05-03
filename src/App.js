@@ -1,5 +1,4 @@
 import * as React from "react";
-import { ethers } from "ethers";
 import "./App.css";
 
 export default function App() {
@@ -8,7 +7,12 @@ export default function App() {
   return (
     <div className="mainContainer">
       <div className="dataContainer">
-        <div className="header">👊 Hi!</div>
+        <div className="header">
+          <span role="img" aria-label="fist-bump">
+            👊
+          </span>{" "}
+          Hi!
+        </div>
 
         <div className="bio">
           Want to roll? Connect your Ethereum wallet and try to submit me.
